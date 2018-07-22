@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.vivek.mynewsapp.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/titleNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/imageNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Image of the News" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/toiNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToI" />
+        <Button
+            android:id="@+id/abcNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC"/>
+        <Button
+            android:id="@+id/bbcNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BBC"/>
+        <Button
+            android:id="@+id/cbcNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CBC"/>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/newsapiurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Powered by NewsAPI.org" />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
