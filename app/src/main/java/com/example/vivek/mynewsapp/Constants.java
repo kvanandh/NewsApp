@@ -6,7 +6,8 @@ package com.example.vivek.mynewsapp;
 
 public class Constants {
     static String urlNews = "https://newsapi.org/v2/top-headlines?sources=";
-    static String appid = "&apiKey=bcd0d50bacff487383baaf5ee8ddfff7";
+    //API Key generated from newsapi.org has to be replaced with **** in the next statement.
+    static String appid = "&apiKey=****";
     static String ABCNews = "abc-news";
     static String BBCNews = "bbc-news";
     static String CBCNews = "cbc-news";
